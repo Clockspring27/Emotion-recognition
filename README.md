@@ -59,6 +59,3 @@ The emotion recognition model achieved an overall **accuracy of 95.38%** on the 
 These results demonstrate strong and balanced classification performance across all three emotion classes.
 
 ```
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.

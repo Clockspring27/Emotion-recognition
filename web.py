@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 import pickle
-from util import get_face_landmarks
+from util.py import get_face_landmarks
 
 # Emotion labels
 emotions = ['HAPPY', 'SAD', 'SURPRISED']

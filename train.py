@@ -21,7 +21,6 @@ X_train, X_test, y_train, y_test = train_test_split(X,
                                                     shuffle=True,
                                                     stratify=y)
 
-# Initialize the Random Forest Classifier
 nca = NeighborhoodComponentsAnalysis(random_state=42)
 knn = KNeighborsClassifier(n_neighbors=3)
 

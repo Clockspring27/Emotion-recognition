@@ -3,7 +3,7 @@ import os
 from util import get_face_landmarks
 import numpy as np 
 
-data_dir="PATH TO DATASET"
+data_dir="faces"
 output=[]
 for emotion_idx, emotion in enumerate(os.listdir(data_dir)):
     for image_path_ in os.listdir(os.path.join(data_dir,emotion)):

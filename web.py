@@ -8,7 +8,7 @@ from util import get_face_landmarks
 emotions = ['HAPPY', 'SAD', 'SURPRISED']
 
 # Load the model
-with open('model', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Streamlit UI

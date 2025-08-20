@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load data from the text file
-data_file = "PATH TO DATA.TXT FILE"
+data_file = "data.txt"
 data = np.loadtxt(data_file)
 
 # Split data into features (X) and labels (y)

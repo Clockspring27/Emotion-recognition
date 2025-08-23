@@ -1,6 +1,6 @@
 # Emotion Recognition with Dimensionality Reduction and KNN
 
-This project focuses on developing a facial emotion recognition system using deep learning techniques. It includes data preparation, model training, evaluation, and deployment via a web interface.
+This project focuses on developing a facial emotion recognition system using deep learning techniques. It includes data preparation, model training, evaluation, and deployment via Gradio.
 
 ## Features
 
@@ -8,29 +8,9 @@ This project focuses on developing a facial emotion recognition system using dee
 - Reduces feature dimensions using Neighborhood Components Analysis
 - Classifies emotions using KNeighborsClassifier
 
-## Requirements
+## web demo:
+You can try the live demo [here](https://huggingface.co/spaces/Clocksp/face-emotion-recognition)
 
-Install required libraries using:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Clockspring27/Emotion-recognition.git
-cd Emotion-recognition
-```
-2. Test the model:
-```bash
-python test.py
-```
-3. Run the web demo:
-```bash
-streamlit web.py
-```
 
 ## Model Performance
 
@@ -57,4 +37,3 @@ The emotion recognition model achieved an overall **accuracy of 95.38%** on the 
 ![alt text](https://github.com/Clockspring27/Emotion-recognition/blob/main/confusion_matrix.png)
 
 These results demonstrate strong and balanced classification performance across all three emotion classes.
-

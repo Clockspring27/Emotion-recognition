@@ -1,15 +1,17 @@
-# Emotion Recognition with Dimensionality Reduction and KNN
+# Face Emotion Recognition
 
-This project focuses on developing a facial emotion recognition system using deep learning techniques. It includes data preparation, model training, evaluation, and deployment via Gradio.
+This project focuses on developing a facial emotion recognition system using deep learning techniques. It includes data preparation (**using runwayml/stable-diffusion-v1-5**), model training (**NCA +KNN**), evaluation, and deployment via **Gradio**.
 
 ## Features
 
-- Reads and processes emotion data from TXT files
-- Reduces feature dimensions using Neighborhood Components Analysis
-- Classifies emotions using KNeighborsClassifier
+- **95.38% Accuracy** on test data
+- **Real-time inference** via web interface
+- **Three emotion classes**: Happy, Sad, Surprised
+- **Advanced feature extraction** using geometric facial landmarks
+- **Efficient model** using only 2.14% of most important features
 
 ## web demo:
-You can try the live demo [here](https://huggingface.co/spaces/Clocksp/face-emotion-recognition)
+You can try the live demo ![here](https://huggingface.co/spaces/Clocksp/face-emotion-recognition)
 
 
 ## Model Performance
@@ -36,4 +38,5 @@ The emotion recognition model achieved an overall **accuracy of 95.38%** on the 
 
 ![alt text](https://github.com/Clockspring27/Emotion-recognition/blob/main/confusion_matrix.png)
 
-These results demonstrate strong and balanced classification performance across all three emotion classes.
+### Report
+Please click ![here](https://github.com/Clockspring27/Emotion-recognition/blob/main/Face_Emotion_Recognition_Report.pdf) for model Results

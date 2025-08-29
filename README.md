@@ -11,7 +11,7 @@ This project focuses on developing a facial emotion recognition system using dee
 - **Efficient model** using only 2.14% of most important features
 
 ## web demo:
-You can try the live demo ![here](https://huggingface.co/spaces/Clocksp/face-emotion-recognition)
+You can try the live demo [here](https://huggingface.co/spaces/Clocksp/face-emotion-recognition)
 
 
 ## Model Performance
@@ -39,4 +39,4 @@ The emotion recognition model achieved an overall **accuracy of 95.38%** on the 
 ![alt text](https://github.com/Clockspring27/Emotion-recognition/blob/main/confusion_matrix.png)
 
 ### Report
-Please click ![here](https://github.com/Clockspring27/Emotion-recognition/blob/main/Face_Emotion_Recognition_Report.pdf) for model Results
+Please click [here](https://github.com/Clockspring27/Emotion-recognition/blob/main/Face_Emotion_Recognition_Report.pdf) for model Results
